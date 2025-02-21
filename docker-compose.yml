@@ -8,6 +8,7 @@ services:
       #- ./wwwroot:/app/wwwroot
       - ./wwwroot/config.json:/app/wwwroot/config.json
       - ./wwwroot/init/simple.json:/app/wwwroot/init/simple.json
+      - ./wwwroot/init/faireasehunga.json:/app/wwwroot/init/faireasehunga.json
       - ./wwwroot/images:/app/wwwroot/images
       - ./serverconfig.json:/app/serverconfig.json
       #- ./node_modules:/usr/src/app/node_modules
